@@ -21,7 +21,14 @@ namespace Project_1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "Clicked";
+            if (textBox1.Text == "")
+            {
+                textBox1.Text = "Clicked";
+            }
+            else
+            {
+                textBox1.Clear();
+            }
         }
     }
 }
