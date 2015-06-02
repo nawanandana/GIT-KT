@@ -18,5 +18,10 @@ namespace Project_1
             //Comment 2
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "Clicked";
+        }
     }
 }
