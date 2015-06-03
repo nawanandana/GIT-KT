@@ -23,7 +23,7 @@ namespace Project_1
         {
             if (textBox1.Text == "")
             {
-                textBox1.Text = "Clicked :)";
+                textBox1.Text = "Clicked :) ";
             }
             else
             {
